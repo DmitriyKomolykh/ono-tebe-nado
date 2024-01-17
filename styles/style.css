@@ -322,12 +322,13 @@ a {
 .about__column {
   display: grid;
   grid-template-columns: 334px 2fr;
-  grid-template-rows: 283px 120px 24px 168px;
+  
   gap: 0 25px;
 }
 
 .about__logo {
   flex-shrink: 0;
+  grid-row: span 2;
   width: 240px;
   height: 240px;
   margin: 35px 0 0 47px;
@@ -344,6 +345,7 @@ a {
   height: 114px;
   margin: 63px 46px;
   text-align: center;
+  
 }
 
 .about__title {
@@ -358,6 +360,7 @@ a {
 }
 
 .about__text {
+  margin-top: 100px;
   color: #000;
   font-family: Raleway;
   font-weight: 400;
