@@ -31,7 +31,7 @@
   text-underline-offset: 3.5px;
 }
 
-.header__links_active {
+.header__links_active .header__link {
   text-decoration: none;
 }
 
@@ -310,7 +310,7 @@
   line-height: 24px;
 }
 
-.about__text-1 {
+.about__text-indent {
   margin-top: 24px;
 }
 
